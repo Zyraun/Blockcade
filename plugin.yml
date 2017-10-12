@@ -1,0 +1,70 @@
+name: Blockcade
+version: 1.0-SNAPSHOT
+description: Blockcade Inc. Minecraft Server core.
+author: Araos
+main: us.blockcade.core.Blockcade
+
+commands:
+  creative:
+    description: Set yourself or another player to Creative mode.
+    aliases: [c, cr, cre, crea, gmc, gm1, gmcreative, buildmode, creativemode]
+  survival:
+    description: Set yourself or another player to Survival mode.
+    aliases: [s, sur, surv, gms, gm0, gmsurvival, survive, survivemode, survivalmode]
+  adventure:
+    description: Set yourself or another player to Adventure mode.
+    aliases: [a, adv, gma, gm2, gmadventure, mapmode, adventuremode]
+  spectator:
+    description: Set yourself or another player to Spectator mode.
+    aliases: [sp, spe, spec, gmsp, spectate, gmspectate, gmspectator, gm3, spectatemode, spectatormode]
+  vanish:
+    description: Vanish yourself or another player. Used for server moderation.
+    aliases: [v, van, disappear, invis, invisible]
+  setrank:
+    description: Set a player's global rank. Administrators only.
+    aliases: [setr, sr, rankset, setrole]
+  ao:
+    description: Administrator override. Activate full powers. Do things players can't.
+    aliases: [adminoverride, adminover, adminover, admino, adminbypass, bypassall]
+  fly:
+    description: Allows donors and above to fly in lobbies.
+    aliases: [soar, flight, wings]
+  verify:
+    description: Useful for rank purchases. Verify's donation or beta information.
+    aliases: [vfy, verif, statuscheck]
+  setlobby:
+    description: Used for GameAPI. Enabled handling of lobby locations in games.
+    aliases: [sl, setlob, slobby, setl]
+  reload:
+    description: Mask for the reload command, allows for ADMINS+ to reload without Op.
+    aliases: [rl, rload, rel, refresh]
+  disguise:
+    description: Disguise yourself or others' rank, name, and/or skin.
+    aliases: [d, dis, dg, undercover, uc]
+  uuid:
+    description: Check player UUIDs. Moderation/debugging purposes.
+    aliases: [userid, uniqueid, uid]
+  map:
+    description: Create, remove, or set spawns for maps in games.
+    aliases: [gamemap, mapp, m, editmap, em]
+  message:
+    description: Send a private message on the server.
+    aliases: [msg, dm, pm, privm, directm]
+  reply:
+    description: Reply to your most recent private message.
+    aliases: [rep, r, respond, resp]
+  teleport:
+    description: Teleport players around like ragdolls.
+    aliases: [t, tp, tele, tport, warp, portal, tpt, tlpt]
+  speed:
+    description: View or set your walking and flying speeds.
+    aliases: [sp, spd, vel, velocity, setspeed]
+  skull:
+    description: Get a player's head as an item.
+    aliases: [head, skl, hd, gethead, getskull]
+  wallet:
+    description: Get your current network balance. (Coins)
+    aliases: [coins, coin, balance, bal, wallet, money, cash, tokens]
+  ban:
+    description: Ban a player from the network.
+    aliases: [banish, banhammer]
