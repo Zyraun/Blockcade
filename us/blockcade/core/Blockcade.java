@@ -2,7 +2,7 @@
  * Copyright (C) Blockcade, Inc - All Rights Reserved
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
- * Written by Addison Hellum <addisonhellum@gmail.com>, September 2017
+ * Written by Addison, September 2017
  */
 
 package us.blockcade.core;
